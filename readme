@@ -1,0 +1,11 @@
+you need to install this packages :
+python3 
+scapy
+ip2geotools
+
+
+installing scapy :
+pip install scapy
+
+installing ip2geotools :
+pip install ip2geotools
