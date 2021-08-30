@@ -1,5 +1,5 @@
-import os
-os.system("YZ-AIO")
+
+print("YZ-AIO")
 print("YOU WILL FIND HERE ALL TOOLS YOU WILL NEED FOR HACKING")
 print("SOON I WILL ADD MORE")
 print(":)")
@@ -15,9 +15,8 @@ print("7 to get website ip")
 x = input(">>> choose number : ")
 if x == ("1") :
   import scapy
-  import os
   from scapy.all import *
-  os.system("YZ-AIO >>> DOS")
+  print("YZ-AIO >>> DOS")
   x = input("enter {YOUR} ip address : ")
   y = input("enter VICTIM ip address : ")
   i =10
@@ -31,8 +30,8 @@ if x == ("1") :
      i += 10
 
 if x == ("2") :
-  import os
-  os.system("YZ-AIO >>> LOCALHOST-I[")
+  
+  print("YZ-AIO >>> LOCALHOST-I[")
   import socket
   hostname = socket.gethostname()
   yy = socket.gethostbyname(hostname)
@@ -40,17 +39,16 @@ if x == ("2") :
   print ("thx for using my tool :)")
   
 if x == ("3") :
-  import os
   import urllib.request
-  os.system("YZ-AIO >>> public IP ADDRESS FINDER")
+  print("YZ-AIO >>> public IP ADDRESS FINDER")
   yyy = urllib.request.urlopen("https://ident.me").read().decode("utf8")
   print ("Your  public ip address is : " + yyy)
   print ("thx for choosing my tool :)")
 
 if x == ("4") :
-  import os
+  
   import hashlib
-  os.system("YZ-AIO >>> DECRYPT MD5")
+  print("YZ-AIO >>> DECRYPT MD5")
   zxz = input("Enter your text : ")
   xzx = hashlib.md5(zxz.encode())
   print ("encrypted ! : ")
@@ -59,8 +57,8 @@ if x == ("4") :
 
 
 if x == ("5") :
-  import os
-  os.system("YZ-AIO >>> simple index creator")
+  
+  print("YZ-AIO >>> simple index creator")
   vx = input("Enter index name : ")
   xx = open(vx , "w")
   xzx = input("Enter index title  : ")
@@ -88,8 +86,8 @@ if x == ("6") :
   print("https://hashes.com/en/decrypt/hash")
 
 if x == ("7") :
-  import os
-  os.system("YZ-AIO >>> URL TO IP")
+  
+  print("YZ-AIO >>> URL TO IP")
   vcv = input("Enter website url without http / https : ")
   import socket
   print ("Done ... ip : " + socket.gethostbyname(vcv))
